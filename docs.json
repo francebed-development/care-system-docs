@@ -2,8 +2,8 @@
   "name": "フランスベッド",
   "description": "Francebed Care System documents.",
   "theme": "#36B9B9",
-  "logo": "/assets/logo/F_Logo_gradient_rounded.png",
-  "favicon": "/assets/logo/F_Logo_gradient_rounded.png",
+  "logo": "/assets/logo/care-system-logo.png",
+  "favicon": "/assets/logo/care-system-logo.png",
   "zoomImages": true,
   "sidebar": [
     ["ホーム", "/"],
