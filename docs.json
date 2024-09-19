@@ -6,6 +6,10 @@
     "defaultTheme": "light",
     "primary": "#36B9B9"
   },
+  "content": {
+    "showPageTitle": true,
+    "showPageImage": true
+  },
   "logo": {
     "light": "/assets/logo/care-system-logo.png",
     "dark": "/assets/logo/care-system-logo.png"
