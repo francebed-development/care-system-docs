@@ -9,8 +9,7 @@
   "content": {
     "showPageTitle": true,
     "showPageImage": true,
-    "zoomImages": true,
-    "automaticallyInferNextPrevious": true
+    "zoomImages": true
   },
   "logo": {
     "light": "/assets/logo/care-system-logo.png",
