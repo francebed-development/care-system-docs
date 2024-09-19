@@ -5,6 +5,12 @@
   "logo": "/assets/logo/care-system-logo.png",
   "favicon": "/assets/logo/care-system-logo.png",
   "zoomImages": true,
+  "social": {
+    "website": "https://www.francebed.co.jp/",
+    "x": "@francebedjp",
+    "youtube": "@francebedjp-2024",
+    "instagram": "francebedjp"
+  },
   "sidebar": [
     ["ホーム", "/"],
     ["ログイン", "/login"],
