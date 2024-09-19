@@ -14,16 +14,22 @@
     "light": "/assets/logo/care-system-logo.png",
     "dark": "/assets/logo/care-system-logo.png"
   },
-  "header": {
-    "showName": true,
-    "showThemeToggle": true,
-    "showGitHubCard": false
-  },
   "favicon": "/assets/logo/care-system-logo.png",
   "social": {
     "website": "https://www.francebed.co.jp/",
     "x": "francebedjp",
     "instagram": "francebedjp"
+  },
+  "header": {
+    "showName": true,
+    "showThemeToggle": true,
+    "showGitHubCard": false,
+    "links": [
+      {
+        "title": "ホームページ",
+        "href": "https://www.francebed.co.jp/"
+      }
+    ]
   },
   "sidebar": [
     {
@@ -165,13 +171,6 @@
           "icon": "shield-halved"
         }
       ]
-    }
-  ],
-  "anchors": [
-    {
-      "title": "ホームページ",
-      "icon": "house",
-      "href": "https://www.francebed.co.jp/"
     }
   ]
 }
