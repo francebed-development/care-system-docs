@@ -29,7 +29,8 @@
     "links": [
       {
         "title": "Francebed Home Page",
-        "href": "https://www.francebed.co.jp/"
+        "href": "https://www.francebed.co.jp/",
+        "cta": true
       }
     ]
   },
