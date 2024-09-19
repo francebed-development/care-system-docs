@@ -22,7 +22,8 @@
       "pages": [
         {
           "title": "ホーム",
-          "href": "/"
+          "href": "/",
+          "icon": "house"
         }
       ]
     },
@@ -31,7 +32,8 @@
       "pages": [
         {
           "title": "ログイン",
-          "href": "/login"
+          "href": "/login",
+          "icon": "right-to-bracket"
         }
       ]
     },
@@ -40,11 +42,13 @@
       "pages": [
         {
           "title": "モニタリング",
-          "href": "/monitoring/monitoring"
+          "href": "/monitoring/monitoring",
+          "icon": "tv"
         },
         {
           "title": "患者の詳細",
-          "href": "/monitoring/detail"
+          "href": "/monitoring/detail",
+          "icon": "person"
         }
       ]
     },
@@ -53,15 +57,18 @@
       "pages": [
         {
           "title": "レポート",
-          "href": "/report/chart"
+          "href": "/report/chart",
+          "icon": "note-sticky"
         },
         {
           "title": "テーブル",
-          "href": "/report/table"
+          "href": "/report/table",
+          "icon": "table"
         },
         {
           "title": "PDF",
-          "href": "/report/pdf"
+          "href": "/report/pdf",
+          "icon": "file-pdf"
         }
       ]
     },
@@ -70,7 +77,8 @@
       "pages": [
         {
           "title": "アラートログ",
-          "href": "/alert-log"
+          "href": "/alert-log",
+          "icon": "bell"
         }
       ]
     },
@@ -79,47 +87,58 @@
       "pages": [
         {
           "title": "フロアの編集",
-          "href": "/settings/floor"
+          "href": "/settings/floor",
+          "icon": "house"
         },
         {
           "title": "部屋の編集",
-          "href": "/settings/room"
+          "href": "/settings/room",
+          "icon": "door-closed"
         },
         {
           "title": "ベッドの編集",
-          "href": "/settings/bed"
+          "href": "/settings/bed",
+          "icon": "bed"
         },
         {
           "title": "患者の編集",
-          "href": "/settings/patient"
+          "href": "/settings/patient",
+          "icon": "person"
         },
         {
           "title": "スタッフの編集",
-          "href": "/settings/staff"
+          "href": "/settings/staff",
+          "icon": "person-walking"
         },
         {
           "title": "ご利用中の端末一覧",
-          "href": "/settings/device"
+          "href": "/settings/device",
+          "icon": "mobile"
         },
         {
-          "title": "表示するフロアの選",
-          "href": "/settings/visible-floors"
+          "title": "表示するフロアの選択",
+          "href": "/settings/visible-floors",
+          "icon": "house-user"
         },
         {
           "title": "センサーの設定変更",
-          "href": "/settings/sensor-settings"
+          "href": "/settings/sensor-settings",
+          "icon": "tablet"
         },
         {
           "title": "テーマの変更",
-          "href": "/settings/theme"
+          "href": "/settings/theme",
+          "icon": "brush"
         },
         {
           "title": "プッシュ通知の設定",
-          "href": "/settings/notifications"
+          "href": "/settings/notifications",
+          "icon": "mobile-screen"
         },
         {
           "title": "ログアウト",
-          "href": "/settings/logout"
+          "href": "/settings/logout",
+          "icon": "right-from-bracket"
         }
       ]
     },
@@ -128,11 +147,13 @@
       "pages": [
         {
           "title": "利用規約",
-          "href": "/other/terms-of-service"
+          "href": "/other/terms-of-service",
+          "icon": "file"
         },
         {
           "title": "個人情報保護方針",
-          "href": "https://www.francebed.co.jp/privacy.html"
+          "href": "https://www.francebed.co.jp/privacy.html",
+          "icon": "shield-halved"
         }
       ]
     }
