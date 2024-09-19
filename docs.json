@@ -19,53 +19,122 @@
     "instagram": "francebedjp"
   },
   "sidebar": [
-    ["ホーム", "/"],
-    ["ログイン", "/login"],
-    [
-      "モニタリング",
-      [
-        ["モニタリング", "/monitoring/monitoring"],
-        ["患者の詳細", "/monitoring/detail"]
+    {
+      "group": "ホーム",
+      "pages": [
+        {
+          "title": "ホーム",
+          "href": "/"
+        }
       ]
-    ],
-    [
-      "レポート",
-      [
-        ["レポート", "/report/chart"],
-        ["テーブル", "/report/table"],
-        ["PDF", "/report/pdf"]
+    },
+    {
+      "group": "モニタリング",
+      "pages": [
+        {
+          "title": "モニタリング",
+          "href": "/monitoring/monitoring"
+        },
+        {
+          "title": "患者の詳細",
+          "href": "/monitoring/detail"
+        }
       ]
-    ],
-    ["アラートログ", "/alert-log"],
-    [
-      "設定",
-      [
-        ["フロアの編集", "/settings/floor"],
-        ["部屋の編集", "/settings/room"],
-        ["ベッドの編集", "/settings/bed"],
-        ["患者の編集", "/settings/patient"],
-        ["スタッフの編集", "/settings/staff"],
-        ["ご利用中の端末一覧", "/settings/device"],
-        ["表示するフロアの選択", "/settings/visible-floors"],
-        ["センサーの設定変更", "/settings/sensor-settings"],
-        ["テーマの変更", "/settings/theme"],
-        ["プッシュ通知の設定", "/settings/notifications"],
-        ["ログアウト", "/settings/logout"]
+    },
+    {
+      "group": "レポート",
+      "pages": [
+        {
+          "title": "レポート",
+          "href": "/report/chart"
+        },
+        {
+          "title": "テーブル",
+          "href": "/report/table"
+        },
+        {
+          "title": "PDF",
+          "href": "/report/pdf"
+        }
       ]
-    ],
-    [
-      "その他",
-      [
-        ["利用規約", "/other/terms-of-service"],
-        ["個人情報保護方針", "https://www.francebed.co.jp/privacy.html"]
+    },
+    {
+      "group": "アラートログ",
+      "pages": [
+        {
+          "title": "アラートログ",
+          "href": "/alert-log"
+        }
       ]
-    ]
+    },
+    {
+      "group": "設定",
+      "pages": [
+        {
+          "title": "フロアの編集",
+          "href": "/settings/floor"
+        },
+        {
+          "title": "部屋の編集",
+          "href": "/settings/room"
+        },
+        {
+          "title": "ベッドの編集",
+          "href": "/settings/bed"
+        },
+        {
+          "title": "患者の編集",
+          "href": "/settings/patient"
+        },
+        {
+          "title": "スタッフの編集",
+          "href": "/settings/staff"
+        },
+        {
+          "title": "ご利用中の端末一覧",
+          "href": "/settings/device"
+        },
+        {
+          "title": "表示するフロアの選",
+          "href": "/settings/visible-floors"
+        },
+        {
+          "title": "センサーの設定変更",
+          "href": "/settings/sensor-settings"
+        },
+        {
+          "title": "テーマの変更",
+          "href": "/settings/theme"
+        },
+        {
+          "title": "プッシュ通知の設定",
+          "href": "/settings/notifications"
+        },
+        {
+          "title": "ログアウト",
+          "href": "/settings/logout"
+        }
+      ]
+    },
+    {
+      "group": "その他",
+      "pages": [
+        {
+          "title": "利用規約",
+          "href": "/other/terms-of-service"
+        },
+        {
+          "title": "個人情報保護方針",
+          "href": "https://www.francebed.co.jp/privacy.html"
+        }
+      ]
+    }
   ],
   "anchors": [
     {
       "title": "ホームページ",
       "icon": "house",
-      "link": "https://www.francebed.co.jp/"
+      "href": "https://www.francebed.co.jp/"
     }
   ]
 }
