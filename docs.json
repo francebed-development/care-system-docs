@@ -133,6 +133,11 @@
           "icon": "mobile"
         },
         {
+          "title": "アラートの設定",
+          "href": "/settings/alert-setting",
+          "icon": "bell"
+        },
+        {
           "title": "表示するフロアの選択",
           "href": "/settings/visible-floors",
           "icon": "house-user"
