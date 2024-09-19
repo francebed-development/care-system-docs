@@ -1,8 +1,15 @@
 {
+  "$schema": "https://docs.page/schema.json",
   "name": "FRANCEBED",
   "description": "Francebed Care System documents.",
-  "theme": "#36B9B9",
-  "logo": "/assets/logo/care-system-logo.png",
+  "theme": {
+    "defaultTheme": "light",
+    "primary": "#36B9B9"
+  },
+  "logo": {
+    "light": "/assets/logo/care-system-logo.png",
+    "dark": "/assets/logo/care-system-logo.png"
+  },
   "favicon": "/assets/logo/care-system-logo.png",
   "zoomImages": true,
   "social": {
