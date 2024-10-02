@@ -63,7 +63,7 @@
           "icon": "tv"
         },
         {
-          "title": "患者の詳細",
+          "title": "利用者の詳細",
           "href": "/monitoring/detail",
           "icon": "person"
         }
@@ -118,7 +118,7 @@
           "icon": "bed"
         },
         {
-          "title": "患者の編集",
+          "title": "利用者の編集",
           "href": "/settings/patient",
           "icon": "person"
         },
