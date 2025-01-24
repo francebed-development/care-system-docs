@@ -1,7 +1,7 @@
 {
   "$schema": "https://docs.page/schema.json",
   "name": "FRANCEBED",
-  "description": "Francebed Care System documents.",
+  "description": "Francebed M-2 Care System documents.",
   "theme": {
     "defaultTheme": "light",
     "primary": "#36B9B9"
